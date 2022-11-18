@@ -1,0 +1,31 @@
+.section-6 {
+    padding-bottom: 40px;
+}
+
+.happy-customer-tittle {
+    margin-bottom: -4rem;
+}
+
+.happy-customer-tittle h2 {
+    font-family: 'Poor Story', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+    color: #000000;
+}
+
+.happy-customer-tittle h2::after {
+    content: '';
+    display: block;
+    width: 6rem;
+    height: 0.3rem;
+    background-color: #3A8DA8;
+    margin: 0 auto;
+    position: absolute;
+}
+
+.btn-customer {
+    display: flex;
+    justify-content: center;
+}
