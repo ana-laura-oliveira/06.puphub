@@ -28,7 +28,8 @@
 @media (max-width: 767px) {
     .box-container {
         gap: 20px;
-        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
@@ -46,6 +47,14 @@
     width: 200px;
     height: 224.81px;
     padding: 50px;
+}
+
+@media (max-width: 767px) {
+    .service-box {
+        width: 170px;
+        height: 194.81px;
+        padding: 30px;
+    }
 }
 
 .service-box p {

@@ -8,11 +8,12 @@
     position: fixed;
     background: white;
     z-index: 1;
+    box-shadow: 0px 2px 6px 0px rgb(0 0 0 / 30%);
 }
 
 @media (max-width: 767px) {
     .header-space {
-        height: 252px;
+        height: 288px;
     }
 
     .header {
@@ -53,8 +54,7 @@
     text-decoration: none;
 }
 
-.btn-sign-in {
-    background: #C7E7E1;
+.btn-register, .btn-sign-in {
     color: white;
     height: 45px;
     width: 140px;
@@ -65,19 +65,20 @@
     font-weight: 400;
     text-align: center;
     text-transform: uppercase;
+}
+.btn-sign-in {
+    color: #124C5F;
+    background-color: #C7E7E1;
 
 }
-
 .btn-register {
-    background: #124C5F;
-    color: white;
-    height: 45px;
-    width: 140px;
-    border-radius: 5px;
-    border-style: none;
-    font-family: 'kanit', 'sans-serif';
-    font-size: 18px;
-    font-weight: 400;
-    text-align: center;
-    text-transform: uppercase;
+    background-color: #124C5F;
+}
+
+@media (max-width: 767px) {
+    .btn-register, .btn-sign-in {
+        height: 35px;
+        font-size: 14px;
+        margin-top: .5rem;
+    }
 }

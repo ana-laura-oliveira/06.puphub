@@ -2,13 +2,16 @@
     padding-bottom: 40px;
 }
 
+.happy-customer-tittle {
+    margin-bottom: -4rem;
+}
+
 .happy-customer-tittle h2 {
     font-family: 'Poor Story', cursive;
     font-style: normal;
     font-weight: 400;
     font-size: 28px;
     line-height: 35px;
-
     color: #000000;
 }
 
